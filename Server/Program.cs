@@ -36,7 +36,7 @@ app.UseRouting();
 
 app.MapRazorPages();
 app.MapControllers();
-app.MapHub<queueList>("/signalR");
+app.MapHub<signalR>("/signalR");
 app.MapFallbackToFile("index.html");
 
 app.Run();

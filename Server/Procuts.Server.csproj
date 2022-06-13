@@ -18,8 +18,10 @@
 
   <ItemGroup>
     <None Remove="Hubs\" />
+    <None Remove="Data\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Hubs\" />
+    <Folder Include="Data\" />
   </ItemGroup>
 </Project>
